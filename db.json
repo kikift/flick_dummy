@@ -1,11 +1,53 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
+  "ao": {  
+    "success":"true",
+    "code":"200",
+    "country":"hk",
+    "encoding":"utf-8",
+    "login_status":"true",
+    "result":"true",
+    "message":"The call is successful",
+    "data":{  
+      "policyProduct":{  
+        "marketingNm":"accident-other-protections",
+        "packageProdType":"Accident & Other Protections",
+        "prodLocalDesc":"accident-other-protections",
+        "planNm":"Travel Plan",
+        "polNum":"K123456789",
+        "planNum":"",
+        "custName":"ABC",
+        "initialEffDt":"15 Aug 2022",
+        "premiumDueDt":"14 Aug 2024",
+        "planStatus":"Active"
+      },
+      "contact_info":{  
+        "isEditable":"true",
+        "phoneMobileNum":{  
+          "countryCode":"852",
+          "number":"91231231"
+        },
+        "phoneOfficeNum":{  
+          "countryCode":"852",
+          "number":"22222222"
+        },
+        "phoneHomeNum":{  
+          "countryCode":"852",
+          "number":"33333333"
+        },
+        "email":"abc@acc.com",
+        "correspondenceAddress":{  
+          "addressLine1":"HK 1",
+          "addressLine2":"HK 2",
+          "addressLine3":"HK 3",
+          "addressLine4":"HK 4",
+          "country":"Hong Kong"
+        }
+      },
+      "serviceContact":{  
+        "fullName":"Abc Abc Abc",
+        "phoneNum":"852-66666666",
+        "email":"abc@qqq.com"
+      }
     }
-  ],
-  "profile": {
-      "name": "typicode"
   }
 }
